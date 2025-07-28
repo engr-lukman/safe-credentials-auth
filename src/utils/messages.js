@@ -1,0 +1,16 @@
+export const MESSAGES = {
+  required: "This field is required.",
+  min_length: (min) => `Minimum length is ${min} characters.`,
+  max_length: (max) => `Maximum length is ${max} characters.`,
+  email: "Please enter a valid email address.",
+  email_required: "Email is required.",
+  password_required: "Password is required.",
+  password_has_lowercase: "Password must contain a lowercase letter.",
+  password_has_uppercase: "Password must contain an uppercase letter.",
+  password_has_number: "Password must contain a number.",
+  password_has_special_char: "Password must contain a special character.",
+  password_min_length: (min) => `Password must be at least ${min} characters.`,
+  password_max_length: (max) => `Password must be at most ${max} characters.`,
+  password_match_confirm_password: "Passwords do not match.",
+  fields_must_match: "Fields must match.",
+};
